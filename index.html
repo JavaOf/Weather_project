@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="weather_form" class="weather-form">
+            <input type="text" id="search" class="search-input" placeholder="Введите название города" required>
+            <button type="submit" class="submit-button">Получить погоду</button>
+        </form>
+        <div id="weather_info" class="weather-info">
+            <div id="image" class="weather-icon">
+                <img id="img" alt="Иконка погоды">
+            </div>
+            <p id="p" class="temperature"></p>
+            <p id="p1" class="condition"></p>
+            <p id="wind" class="wind-speed"></p>
+        </div>
+        <button id="btn" class="switch-button">Переключить температуру</button>
+    </div>
+
+    <script src="../lesson5/script.js"></script>
+</body>
+</html>
